@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('-----clean-----') { 
             steps {
-                bat "mvn clean"
+                bat "mvnn clean"
             }
         }
         stage('-----Test-----') { 
